@@ -1,0 +1,47 @@
+{
+    "namespace": "com.demo.service",
+    "git": "https://github.com/zucatti/com.demo.service.git",
+    "title": "DemoService",
+    "description": "Demo service for omneedia",
+    "platform": "api",
+    "uid": "H1NWNgATg",
+    "version": "0.0.1",
+    "build": "0",
+    "copyright": "Copyright (c) 2017 zucatti",
+    "license": "bsd3",
+    "author": {
+        "name": "Stéphane ZUCATTI",
+        "mail": "stephane.zucatti@me.com",
+        "twitter": "",
+        "web": "",
+        "github": "https://github.com/zucatti"
+    },
+    "team": {
+        "debugger": [],
+        "tester": []
+    },
+    "langs": [
+        "en",
+        "fr"
+    ],
+    "frameworks": [],
+    "auth": [],
+    "paths": {},
+    "controllers": [
+        "CMain"
+    ],
+    "icon": {
+        "background": "#FFFFFF",
+        "file": "app.png"
+    },
+    "modules": [],
+    "plugins": [],
+    "api": [
+        "MyService"
+    ],
+    "db": [],
+    "packages": [],
+    "server": {
+        "port": 3000
+    }
+}
