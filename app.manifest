@@ -42,7 +42,6 @@
     "db": [
         "db1",
         "demo",
-        "demotable",
         "sakila"
     ],
     "packages": [],
