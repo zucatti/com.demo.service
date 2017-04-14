@@ -40,7 +40,8 @@
         "MyService"
     ],
     "db": [
-        "db0"
+        "db0",
+        "db1"
     ],
     "packages": [],
     "server": {
