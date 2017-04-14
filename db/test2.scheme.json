@@ -1,5 +1,5 @@
 {
-    "db": "test",
+    "db": "test2",
     "tables": [
         "Table1",
         "Table2"
@@ -17,12 +17,12 @@
                     "type": "counter"
                 },
                 "CreatedAt": {
-                    "required": false,
+                    "required": true,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 },
                 "UpdatedAt": {
-                    "required": false,
+                    "required": true,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 }
@@ -41,12 +41,12 @@
                     "type": "counter"
                 },
                 "CreatedAt": {
-                    "required": false,
+                    "required": true,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 },
                 "UpdatedAt": {
-                    "required": false,
+                    "required": true,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 }
