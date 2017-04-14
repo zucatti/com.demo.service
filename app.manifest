@@ -41,7 +41,9 @@
     ],
     "db": [
         "db1",
-        "demo"
+        "demo",
+        "demotable",
+        "sakila"
     ],
     "packages": [],
     "server": {

@@ -1,0 +1,941 @@
+{
+    "db": "sakila",
+    "tables": [
+        "actor",
+        "actor_info",
+        "address",
+        "category",
+        "city",
+        "country",
+        "customer",
+        "customer_list",
+        "film",
+        "film_actor",
+        "film_category",
+        "film_list",
+        "film_text",
+        "inventory",
+        "language",
+        "nicer_but_slower_film_list",
+        "payment",
+        "rental",
+        "sales_by_film_category",
+        "sales_by_store",
+        "staff",
+        "staff_list",
+        "store"
+    ],
+    "table": {
+        "actor": {
+            "fields": [
+                "actor_id",
+                "first_name",
+                "last_name",
+                "last_update"
+            ],
+            "field": {
+                "actor_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "first_name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(45)"
+                },
+                "last_name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(45)"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "actor_id"
+        },
+        "actor_info": {
+            "fields": [
+                "actor_id",
+                "first_name",
+                "last_name",
+                "film_info"
+            ],
+            "field": {
+                "actor_id": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "smallint(5) unsigned"
+                },
+                "first_name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(45)"
+                },
+                "last_name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(45)"
+                },
+                "film_info": {
+                    "required": false,
+                    "type": "text",
+                    "dbtype": "text"
+                }
+            }
+        },
+        "address": {
+            "fields": [
+                "address_id",
+                "address",
+                "address2",
+                "district",
+                "city_id",
+                "postal_code",
+                "phone",
+                "location",
+                "last_update"
+            ],
+            "field": {
+                "address_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "address": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "address2": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "district": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(20)"
+                },
+                "city_id": {
+                    "required": true,
+                    "join": "city.city_id"
+                },
+                "postal_code": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(10)"
+                },
+                "phone": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(20)"
+                },
+                "location": {
+                    "required": true,
+                    "type": "",
+                    "dbtype": "geometry"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "address_id"
+        },
+        "category": {
+            "fields": [
+                "category_id",
+                "name",
+                "last_update"
+            ],
+            "field": {
+                "category_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(25)"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "category_id"
+        },
+        "city": {
+            "fields": [
+                "city_id",
+                "city",
+                "country_id",
+                "last_update"
+            ],
+            "field": {
+                "city_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "city": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "country_id": {
+                    "required": true,
+                    "join": "country.country_id"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "city_id"
+        },
+        "country": {
+            "fields": [
+                "country_id",
+                "country",
+                "last_update"
+            ],
+            "field": {
+                "country_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "country": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "country_id"
+        },
+        "customer": {
+            "fields": [
+                "customer_id",
+                "store_id",
+                "first_name",
+                "last_name",
+                "email",
+                "address_id",
+                "active",
+                "create_date",
+                "last_update"
+            ],
+            "field": {
+                "customer_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "store_id": {
+                    "required": true,
+                    "join": "store.store_id"
+                },
+                "first_name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(45)"
+                },
+                "last_name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(45)"
+                },
+                "email": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "address_id": {
+                    "required": true,
+                    "join": "address.address_id"
+                },
+                "active": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "tinyint(1)"
+                },
+                "create_date": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "datetime"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "customer_id"
+        },
+        "customer_list": {
+            "fields": [
+                "ID",
+                "name",
+                "address",
+                "zip code",
+                "phone",
+                "city",
+                "country",
+                "notes",
+                "SID"
+            ],
+            "field": {
+                "ID": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "smallint(5) unsigned"
+                },
+                "name": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(91)"
+                },
+                "address": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "zip code": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(10)"
+                },
+                "phone": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(20)"
+                },
+                "city": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "country": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "notes": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(6)"
+                },
+                "SID": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "tinyint(3) unsigned"
+                }
+            }
+        },
+        "film": {
+            "fields": [
+                "film_id",
+                "title",
+                "description",
+                "release_year",
+                "language_id",
+                "original_language_id",
+                "rental_duration",
+                "rental_rate",
+                "length",
+                "replacement_cost",
+                "rating",
+                "special_features",
+                "last_update"
+            ],
+            "field": {
+                "film_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "title": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(255)"
+                },
+                "description": {
+                    "required": false,
+                    "type": "text",
+                    "dbtype": "text"
+                },
+                "release_year": {
+                    "required": false,
+                    "type": "",
+                    "dbtype": "year(4)"
+                },
+                "language_id": {
+                    "required": true,
+                    "join": "language.language_id"
+                },
+                "original_language_id": {
+                    "required": false,
+                    "join": "language.language_id"
+                },
+                "rental_duration": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "tinyint(3) unsigned"
+                },
+                "rental_rate": {
+                    "required": true,
+                    "type": "float",
+                    "dbtype": "decimal(4,2)"
+                },
+                "length": {
+                    "required": false,
+                    "type": "int",
+                    "dbtype": "smallint(5) unsigned"
+                },
+                "replacement_cost": {
+                    "required": true,
+                    "type": "float",
+                    "dbtype": "decimal(5,2)"
+                },
+                "rating": {
+                    "required": false,
+                    "type": "",
+                    "dbtype": "enum('G','PG','PG-13','R','NC-17')"
+                },
+                "special_features": {
+                    "required": false,
+                    "type": "",
+                    "dbtype": "set('Trailers','Commentaries','Deleted Scenes','Behind the Scenes')"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "film_id"
+        },
+        "film_actor": {
+            "fields": [
+                "actor_id",
+                "film_id",
+                "last_update"
+            ],
+            "field": {
+                "actor_id": {
+                    "required": true,
+                    "join": "actor.actor_id"
+                },
+                "film_id": {
+                    "required": true,
+                    "join": "film.film_id"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "film_id"
+        },
+        "film_category": {
+            "fields": [
+                "film_id",
+                "category_id",
+                "last_update"
+            ],
+            "field": {
+                "film_id": {
+                    "required": true,
+                    "join": "film.film_id"
+                },
+                "category_id": {
+                    "required": true,
+                    "join": "category.category_id"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "category_id"
+        },
+        "film_list": {
+            "fields": [
+                "FID",
+                "title",
+                "description",
+                "category",
+                "price",
+                "length",
+                "rating",
+                "actors"
+            ],
+            "field": {
+                "FID": {
+                    "required": false,
+                    "type": "int",
+                    "dbtype": "smallint(5) unsigned"
+                },
+                "title": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(255)"
+                },
+                "description": {
+                    "required": false,
+                    "type": "text",
+                    "dbtype": "text"
+                },
+                "category": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(25)"
+                },
+                "price": {
+                    "required": false,
+                    "type": "float",
+                    "dbtype": "decimal(4,2)"
+                },
+                "length": {
+                    "required": false,
+                    "type": "int",
+                    "dbtype": "smallint(5) unsigned"
+                },
+                "rating": {
+                    "required": false,
+                    "type": "",
+                    "dbtype": "enum('G','PG','PG-13','R','NC-17')"
+                },
+                "actors": {
+                    "required": false,
+                    "type": "text",
+                    "dbtype": "text"
+                }
+            }
+        },
+        "film_text": {
+            "fields": [
+                "film_id",
+                "title",
+                "description"
+            ],
+            "field": {
+                "film_id": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "smallint(6)"
+                },
+                "title": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(255)"
+                },
+                "description": {
+                    "required": false,
+                    "type": "text",
+                    "dbtype": "text"
+                }
+            },
+            "key": "film_id"
+        },
+        "inventory": {
+            "fields": [
+                "inventory_id",
+                "film_id",
+                "store_id",
+                "last_update"
+            ],
+            "field": {
+                "inventory_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "film_id": {
+                    "required": true,
+                    "join": "film.film_id"
+                },
+                "store_id": {
+                    "required": true,
+                    "join": "store.store_id"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "inventory_id"
+        },
+        "language": {
+            "fields": [
+                "language_id",
+                "name",
+                "last_update"
+            ],
+            "field": {
+                "language_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "char(20)"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "language_id"
+        },
+        "nicer_but_slower_film_list": {
+            "fields": [
+                "FID",
+                "title",
+                "description",
+                "category",
+                "price",
+                "length",
+                "rating",
+                "actors"
+            ],
+            "field": {
+                "FID": {
+                    "required": false,
+                    "type": "int",
+                    "dbtype": "smallint(5) unsigned"
+                },
+                "title": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(255)"
+                },
+                "description": {
+                    "required": false,
+                    "type": "text",
+                    "dbtype": "text"
+                },
+                "category": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(25)"
+                },
+                "price": {
+                    "required": false,
+                    "type": "float",
+                    "dbtype": "decimal(4,2)"
+                },
+                "length": {
+                    "required": false,
+                    "type": "int",
+                    "dbtype": "smallint(5) unsigned"
+                },
+                "rating": {
+                    "required": false,
+                    "type": "",
+                    "dbtype": "enum('G','PG','PG-13','R','NC-17')"
+                },
+                "actors": {
+                    "required": false,
+                    "type": "text",
+                    "dbtype": "text"
+                }
+            }
+        },
+        "payment": {
+            "fields": [
+                "payment_id",
+                "customer_id",
+                "staff_id",
+                "rental_id",
+                "amount",
+                "payment_date",
+                "last_update"
+            ],
+            "field": {
+                "payment_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "customer_id": {
+                    "required": true,
+                    "join": "customer.customer_id"
+                },
+                "staff_id": {
+                    "required": true,
+                    "join": "staff.staff_id"
+                },
+                "rental_id": {
+                    "required": false,
+                    "join": "rental.rental_id"
+                },
+                "amount": {
+                    "required": true,
+                    "type": "float",
+                    "dbtype": "decimal(5,2)"
+                },
+                "payment_date": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "datetime"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "payment_id"
+        },
+        "rental": {
+            "fields": [
+                "rental_id",
+                "rental_date",
+                "inventory_id",
+                "customer_id",
+                "return_date",
+                "staff_id",
+                "last_update"
+            ],
+            "field": {
+                "rental_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "rental_date": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "datetime"
+                },
+                "inventory_id": {
+                    "required": true,
+                    "join": "inventory.inventory_id"
+                },
+                "customer_id": {
+                    "required": true,
+                    "join": "customer.customer_id"
+                },
+                "return_date": {
+                    "required": false,
+                    "type": "datetime",
+                    "dbtype": "datetime"
+                },
+                "staff_id": {
+                    "required": true,
+                    "join": "staff.staff_id"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "rental_id"
+        },
+        "sales_by_film_category": {
+            "fields": [
+                "category",
+                "total_sales"
+            ],
+            "field": {
+                "category": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(25)"
+                },
+                "total_sales": {
+                    "required": false,
+                    "type": "float",
+                    "dbtype": "decimal(27,2)"
+                }
+            }
+        },
+        "sales_by_store": {
+            "fields": [
+                "store",
+                "manager",
+                "total_sales"
+            ],
+            "field": {
+                "store": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(101)"
+                },
+                "manager": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(91)"
+                },
+                "total_sales": {
+                    "required": false,
+                    "type": "float",
+                    "dbtype": "decimal(27,2)"
+                }
+            }
+        },
+        "staff": {
+            "fields": [
+                "staff_id",
+                "first_name",
+                "last_name",
+                "address_id",
+                "picture",
+                "email",
+                "store_id",
+                "active",
+                "username",
+                "password",
+                "last_update"
+            ],
+            "field": {
+                "staff_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "first_name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(45)"
+                },
+                "last_name": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(45)"
+                },
+                "address_id": {
+                    "required": true,
+                    "join": "address.address_id"
+                },
+                "picture": {
+                    "required": false,
+                    "type": "blob",
+                    "dbtype": "blob"
+                },
+                "email": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "store_id": {
+                    "required": true,
+                    "join": "store.store_id"
+                },
+                "active": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "tinyint(1)"
+                },
+                "username": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(16)"
+                },
+                "password": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(40)"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "staff_id"
+        },
+        "staff_list": {
+            "fields": [
+                "ID",
+                "name",
+                "address",
+                "zip code",
+                "phone",
+                "city",
+                "country",
+                "SID"
+            ],
+            "field": {
+                "ID": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "tinyint(3) unsigned"
+                },
+                "name": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(91)"
+                },
+                "address": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "zip code": {
+                    "required": false,
+                    "type": "char",
+                    "dbtype": "varchar(10)"
+                },
+                "phone": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(20)"
+                },
+                "city": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "country": {
+                    "required": true,
+                    "type": "char",
+                    "dbtype": "varchar(50)"
+                },
+                "SID": {
+                    "required": true,
+                    "type": "int",
+                    "dbtype": "tinyint(3) unsigned"
+                }
+            }
+        },
+        "store": {
+            "fields": [
+                "store_id",
+                "manager_staff_id",
+                "address_id",
+                "last_update"
+            ],
+            "field": {
+                "store_id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "manager_staff_id": {
+                    "required": true,
+                    "join": "staff.staff_id"
+                },
+                "address_id": {
+                    "required": true,
+                    "join": "address.address_id"
+                },
+                "last_update": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "store_id"
+        }
+    }
+}
