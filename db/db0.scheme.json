@@ -2,7 +2,8 @@
     "db": "db0",
     "tables": [
         "Table1",
-        "Table2"
+        "Table2",
+        "Table3"
     ],
     "table": {
         "Table1": {
@@ -30,6 +31,30 @@
             "key": "Id"
         },
         "Table2": {
+            "fields": [
+                "Id",
+                "CreatedAt",
+                "UpdatedAt"
+            ],
+            "field": {
+                "Id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "CreatedAt": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                },
+                "UpdatedAt": {
+                    "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "Id"
+        },
+        "Table3": {
             "fields": [
                 "Id",
                 "CreatedAt",
