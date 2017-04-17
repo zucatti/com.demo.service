@@ -1,0 +1,528 @@
+[
+    [
+        1,
+        "ACADEMY DINOSAUR",
+        "A Epic Drama of a Feminist And a Mad Scientist who must Battle a Teacher in The Canadian Rockies",
+        "Documentary",
+        0.99,
+        86,
+        "PG",
+        "PENELOPE GUINESS, CHRISTIAN GABLE, LUCILLE TRACY, SANDRA PECK, JOHNNY CAGE, MENA TEMPLE, WARREN NOLTE, OPRAH KILMER, ROCK DUKAKIS, MARY KEITEL"
+    ],
+    [
+        2,
+        "ACE GOLDFINGER",
+        "A Astounding Epistle of a Database Administrator And a Explorer who must Find a Car in Ancient China",
+        "Horror",
+        4.99,
+        48,
+        "G",
+        "BOB FAWCETT, MINNIE ZELLWEGER, SEAN GUINESS, CHRIS DEPP"
+    ],
+    [
+        3,
+        "ADAPTATION HOLES",
+        "A Astounding Reflection of a Lumberjack And a Car who must Sink a Lumberjack in A Baloon Factory",
+        "Documentary",
+        2.99,
+        50,
+        "NC-17",
+        "NICK WAHLBERG, BOB FAWCETT, CAMERON STREEP, RAY JOHANSSON, JULIANNE DENCH"
+    ],
+    [
+        4,
+        "AFFAIR PREJUDICE",
+        "A Fanciful Documentary of a Frisbee And a Lumberjack who must Chase a Monkey in A Shark Tank",
+        "Horror",
+        2.99,
+        117,
+        "G",
+        "JODIE DEGENERES, SCARLETT DAMON, KENNETH PESCI, FAY WINSLET, OPRAH KILMER"
+    ],
+    [
+        5,
+        "AFRICAN EGG",
+        "A Fast-Paced Documentary of a Pastry Chef And a Dentist who must Pursue a Forensic Psychologist in The Gulf of Mexico",
+        "Family",
+        2.99,
+        130,
+        "G",
+        "GARY PHOENIX, DUSTIN TAUTOU, MATTHEW LEIGH, MATTHEW CARREY, THORA TEMPLE"
+    ],
+    [
+        6,
+        "AGENT TRUMAN",
+        "A Intrepid Panorama of a Robot And a Boy who must Escape a Sumo Wrestler in Ancient China",
+        "Foreign",
+        2.99,
+        169,
+        "PG",
+        "KIRSTEN PALTROW, SANDRA KILMER, JAYNE NEESON, WARREN NOLTE, MORGAN WILLIAMS, KENNETH HOFFMAN, REESE WEST"
+    ],
+    [
+        7,
+        "AIRPLANE SIERRA",
+        "A Touching Saga of a Hunter And a Butler who must Discover a Butler in A Jet Boat",
+        "Comedy",
+        4.99,
+        62,
+        "PG-13",
+        "JIM MOSTEL, RICHARD PENN, OPRAH KILMER, MENA HOPPER, MICHAEL BOLGER"
+    ],
+    [
+        8,
+        "AIRPORT POLLOCK",
+        "A Epic Tale of a Moose And a Girl who must Confront a Monkey in Ancient India",
+        "Horror",
+        4.99,
+        54,
+        "R",
+        "FAY KILMER, GENE WILLIS, SUSAN DAVIS, LUCILLE DEE"
+    ],
+    [
+        9,
+        "ALABAMA DEVIL",
+        "A Thoughtful Panorama of a Database Administrator And a Mad Scientist who must Outgun a Mad Scientist in A Jet Boat",
+        "Horror",
+        2.99,
+        114,
+        "PG-13",
+        "CHRISTIAN GABLE, ELVIS MARX, RIP CRAWFORD, MENA TEMPLE, RIP WINSLET, WARREN NOLTE, GRETA KEITEL, WILLIAM HACKMAN, MERYL ALLEN"
+    ],
+    [
+        10,
+        "ALADDIN CALENDAR",
+        "A Action-Packed Tale of a Man And a Lumberjack who must Reach a Feminist in Ancient China",
+        "Sports",
+        4.99,
+        63,
+        "NC-17",
+        "ALEC WAYNE, JUDY DEAN, VAL BOLGER, RAY JOHANSSON, RENEE TRACY, JADA RYDER, GRETA MALDEN, ROCK DUKAKIS"
+    ],
+    [
+        11,
+        "ALAMO VIDEOTAPE",
+        "A Boring Epistle of a Butler And a Cat who must Fight a Pastry Chef in A MySQL Convention",
+        "Foreign",
+        0.99,
+        126,
+        "G",
+        "JOHNNY CAGE, SCARLETT DAMON, SEAN GUINESS, MICHAEL BENING"
+    ],
+    [
+        12,
+        "ALASKA PHANTOM",
+        "A Fanciful Saga of a Hunter And a Pastry Chef who must Vanquish a Boy in Australia",
+        "Music",
+        0.99,
+        136,
+        "PG",
+        "VAL BOLGER, BURT POSEY, SIDNEY CROWE, SYLVESTER DERN, ALBERT JOHANSSON, GENE MCKELLEN, JEFF SILVERSTONE"
+    ],
+    [
+        13,
+        "ALI FOREVER",
+        "A Action-Packed Drama of a Dentist And a Crocodile who must Battle a Feminist in The Canadian Rockies",
+        "Horror",
+        4.99,
+        150,
+        "PG",
+        "CARY MCCONAUGHEY, CHRISTOPHER BERRY, KENNETH TORN, MORGAN MCDORMAND, JON CHASE"
+    ],
+    [
+        14,
+        "ALICE FANTASIA",
+        "A Emotional Drama of a A Shark And a Database Administrator who must Vanquish a Pioneer in Soviet Georgia",
+        "Classics",
+        0.99,
+        94,
+        "NC-17",
+        "WOODY HOFFMAN, MINNIE ZELLWEGER, MORGAN WILLIAMS, ROCK DUKAKIS"
+    ],
+    [
+        15,
+        "ALIEN CENTER",
+        "A Brilliant Drama of a Cat And a Mad Scientist who must Battle a Feminist in A MySQL Convention",
+        "Foreign",
+        2.99,
+        46,
+        "NC-17",
+        "BURT DUKAKIS, KENNETH PALTROW, SIDNEY CROWE, RENEE TRACY, HUMPHREY WILLIS, MENA HOPPER"
+    ],
+    [
+        16,
+        "ALLEY EVOLUTION",
+        "A Fast-Paced Drama of a Robot And a Composer who must Battle a Astronaut in New Orleans",
+        "Foreign",
+        2.99,
+        180,
+        "NC-17",
+        "KARL BERRY, JUDE CRUISE, ALBERT JOHANSSON, GREGORY GOODING, JOHN SUVARI"
+    ],
+    [
+        17,
+        "ALONE TRIP",
+        "A Fast-Paced Character Study of a Composer And a Dog who must Outgun a Boat in An Abandoned Fun House",
+        "Music",
+        0.99,
+        82,
+        "R",
+        "ED CHASE, KARL BERRY, UMA WOOD, WOODY JOLIE, SPENCER DEPP, CHRIS DEPP, LAURENCE BULLOCK, RENEE BALL"
+    ],
+    [
+        18,
+        "ALTER VICTORY",
+        "A Thoughtful Drama of a Composer And a Feminist who must Meet a Secret Agent in The Canadian Rockies",
+        "Animation",
+        0.99,
+        57,
+        "PG-13",
+        "REESE KILMER, JADA RYDER, ANGELA WITHERSPOON, OPRAH KILMER"
+    ],
+    [
+        19,
+        "AMADEUS HOLY",
+        "A Emotional Display of a Pioneer And a Technical Writer who must Battle a Man in A Baloon",
+        "Action",
+        0.99,
+        113,
+        "PG",
+        "JOHNNY LOLLOBRIGIDA, JULIA MCQUEEN, VAL BOLGER, KIRK JOVOVICH, JAMES PITT, PENELOPE CRONYN"
+    ],
+    [
+        20,
+        "AMELIE HELLFIGHTERS",
+        "A Boring Drama of a Woman And a Squirrel who must Conquer a Student in A Baloon",
+        "Music",
+        4.99,
+        79,
+        "R",
+        "CARMEN HUNT, WALTER TORN, ED MANSFIELD, EWAN GOODING, IAN TANDY, LAURA BRODY"
+    ],
+    [
+        21,
+        "AMERICAN CIRCUS",
+        "A Insightful Drama of a Girl And a Astronaut who must Face a Database Administrator in A Shark Tank",
+        "Action",
+        4.99,
+        129,
+        "R",
+        "KEVIN BLOOM, RIP CRAWFORD, SIDNEY CROWE, WARREN JACKMAN, FRANCES TOMEI"
+    ],
+    [
+        22,
+        "AMISTAD MIDSUMMER",
+        "A Emotional Character Study of a Dentist And a Crocodile who must Meet a Sumo Wrestler in California",
+        "New",
+        2.99,
+        85,
+        "G",
+        "CARY MCCONAUGHEY, DARYL WAHLBERG, SALMA NOLTE, SCARLETT BENING"
+    ],
+    [
+        23,
+        "ANACONDA CONFESSIONS",
+        "A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia",
+        "Animation",
+        0.99,
+        92,
+        "R",
+        "PENELOPE GUINESS, JENNIFER DAVIS, ELVIS MARX, JAYNE NOLTE, HUMPHREY WILLIS"
+    ],
+    [
+        24,
+        "ANALYZE HOOSIERS",
+        "A Thoughtful Display of a Explorer And a Pastry Chef who must Overcome a Feminist in The Sahara Desert",
+        "Horror",
+        2.99,
+        181,
+        "R",
+        "TOM MCKELLEN, TOM MIRANDA, JESSICA BAILEY, GRETA MALDEN, ED GUINESS"
+    ],
+    [
+        25,
+        "ANGELS LIFE",
+        "A Thoughtful Display of a Woman And a Astronaut who must Battle a Robot in Berlin",
+        "New",
+        2.99,
+        74,
+        "G",
+        "PENELOPE GUINESS, JENNIFER DAVIS, GRACE MOSTEL, JULIA BARRYMORE, CHRISTOPHER BERRY, ED MANSFIELD, NICK DEGENERES, LAURENCE BULLOCK, RENEE BALL"
+    ],
+    [
+        26,
+        "ANNIE IDENTITY",
+        "A Amazing Panorama of a Pastry Chef And a Boat who must Escape a Woman in An Abandoned Amusement Park",
+        "Sci-Fi",
+        0.99,
+        86,
+        "G",
+        "ADAM GRANT, CATE MCQUEEN, GRETA KEITEL"
+    ],
+    [
+        27,
+        "ANONYMOUS HUMAN",
+        "A Amazing Reflection of a Database Administrator And a Astronaut who must Outrace a Database Administrator in A Shark Tank",
+        "Sports",
+        0.99,
+        179,
+        "NC-17",
+        "GRACE MOSTEL, FAY KILMER, JIM MOSTEL, SUSAN DAVIS, WHOOPI HURT, EMILY DEE, MERYL GIBSON, MENA HOPPER, ED GUINESS"
+    ],
+    [
+        28,
+        "ANTHEM LUKE",
+        "A Touching Panorama of a Waitress And a Woman who must Outrace a Dog in An Abandoned Amusement Park",
+        "Comedy",
+        4.99,
+        91,
+        "PG-13",
+        "MILLA KEITEL, OPRAH KILMER"
+    ],
+    [
+        29,
+        "ANTITRUST TOMATOES",
+        "A Fateful Yarn of a Womanizer And a Feminist who must Succumb a Database Administrator in Ancient India",
+        "Action",
+        2.99,
+        168,
+        "NC-17",
+        "BETTE NICHOLSON, UMA WOOD, SIDNEY CROWE, SALMA NOLTE, WILLIAM HACKMAN, RENEE BALL, REESE WEST"
+    ],
+    [
+        30,
+        "ANYTHING SAVANNAH",
+        "A Epic Story of a Pastry Chef And a Woman who must Chase a Feminist in An Abandoned Fun House",
+        "Horror",
+        2.99,
+        82,
+        "R",
+        "JOE SWANK, CHRISTOPHER WEST, LISA MONROE"
+    ],
+    [
+        31,
+        "APACHE DIVINE",
+        "A Awe-Inspiring Reflection of a Pastry Chef And a Teacher who must Overcome a Sumo Wrestler in A U-Boat",
+        "Family",
+        4.99,
+        92,
+        "NC-17",
+        "NICK WAHLBERG, CUBA OLIVIER, ANNE CRONYN, HENRY BERRY"
+    ],
+    [
+        32,
+        "APOCALYPSE FLAMINGOS",
+        "A Astounding Story of a Dog And a Squirrel who must Defeat a Woman in An Abandoned Amusement Park",
+        "New",
+        4.99,
+        119,
+        "R",
+        "MAE HOFFMAN, VIVIEN BASINGER, OPRAH KILMER, WILL WILSON, RUSSELL CLOSE"
+    ],
+    [
+        33,
+        "APOLLO TEEN",
+        "A Action-Packed Reflection of a Crocodile And a Explorer who must Find a Sumo Wrestler in An Abandoned Mine Shaft",
+        "Drama",
+        2.99,
+        153,
+        "PG-13",
+        "MAE HOFFMAN, WOODY JOLIE, ED MANSFIELD, ALBERT JOHANSSON, OPRAH KILMER, MENA HOPPER, JEFF SILVERSTONE, DEBBIE AKROYD"
+    ],
+    [
+        34,
+        "ARABIA DOGMA",
+        "A Touching Epistle of a Madman And a Mad Cow who must Defeat a Student in Nigeria",
+        "Horror",
+        0.99,
+        62,
+        "NC-17",
+        "KARL BERRY, RIP CRAWFORD, JULIA MCQUEEN, JOHNNY CAGE, JUDE CRUISE, SEAN WILLIAMS, BURT POSEY, WALTER TORN, RUSSELL BACALL, FRANCES TOMEI, GRETA MALDEN, LISA MONROE"
+    ],
+    [
+        35,
+        "ARACHNOPHOBIA ROLLERCOASTER",
+        "A Action-Packed Reflection of a Pastry Chef And a Composer who must Discover a Mad Scientist in The First Manned Space Station",
+        "Horror",
+        2.99,
+        147,
+        "PG-13",
+        "GRACE MOSTEL, JUDY DEAN, DARYL WAHLBERG, MORGAN HOPKINS, CUBA ALLEN, RITA REYNOLDS, EWAN GOODING, HUMPHREY GARLAND"
+    ],
+    [
+        36,
+        "ARGONAUTS TOWN",
+        "A Emotional Epistle of a Forensic Psychologist And a Butler who must Challenge a Waitress in An Abandoned Mine Shaft",
+        "Animation",
+        0.99,
+        127,
+        "PG-13",
+        "JULIA BARRYMORE, GARY PENN, GENE WILLIS, DAN STREEP, KEVIN GARLAND"
+    ],
+    [
+        37,
+        "ARIZONA BANG",
+        "A Brilliant Panorama of a Mad Scientist And a Mad Cow who must Meet a Pioneer in A Monastery",
+        "Classics",
+        2.99,
+        121,
+        "PG",
+        "KARL BERRY, RAY JOHANSSON, RUSSELL BACALL, GRETA KEITEL"
+    ],
+    [
+        38,
+        "ARK RIDGEMONT",
+        "A Beautiful Yarn of a Pioneer And a Monkey who must Pursue a Explorer in The Sahara Desert",
+        "Action",
+        0.99,
+        68,
+        "NC-17",
+        "PARKER GOLDBERG, NICK DEGENERES, AUDREY BAILEY"
+    ],
+    [
+        39,
+        "ARMAGEDDON LOST",
+        "A Fast-Paced Tale of a Boat And a Teacher who must Succumb a Composer in An Abandoned Mine Shaft",
+        "Sci-Fi",
+        0.99,
+        99,
+        "G",
+        "ANGELA HUDSON, JAMES PITT, PENELOPE CRONYN, CUBA ALLEN, KIM ALLEN, GENE MCKELLEN, GREGORY GOODING"
+    ],
+    [
+        40,
+        "ARMY FLINTSTONES",
+        "A Boring Saga of a Database Administrator And a Womanizer who must Battle a Waitress in Nigeria",
+        "Documentary",
+        0.99,
+        148,
+        "R",
+        "ED CHASE, CARY MCCONAUGHEY, MAE HOFFMAN, GENE WILLIS, PENELOPE CRONYN, MATTHEW CARREY, RUSSELL CLOSE"
+    ],
+    [
+        41,
+        "ARSENIC INDEPENDENCE",
+        "A Fanciful Documentary of a Mad Cow And a Womanizer who must Find a Dentist in Berlin",
+        "Travel",
+        0.99,
+        137,
+        "PG",
+        "CUBA ALLEN, RITA REYNOLDS, OPRAH KILMER"
+    ],
+    [
+        42,
+        "ARTIST COLDBLOODED",
+        "A Stunning Reflection of a Robot And a Moose who must Challenge a Woman in California",
+        "Sports",
+        2.99,
+        170,
+        "NC-17",
+        "ED CHASE, SANDRA KILMER, KIRK JOVOVICH, JAYNE NEESON, SIDNEY CROWE, RENEE TRACY, MERYL ALLEN"
+    ],
+    [
+        43,
+        "ATLANTIS CAUSE",
+        "A Thrilling Yarn of a Feminist And a Hunter who must Fight a Technical Writer in A Shark Tank",
+        "Family",
+        2.99,
+        170,
+        "G",
+        "WOODY HOFFMAN, AUDREY OLIVIER, JULIANNE DENCH, FRANCES TOMEI, GRETA KEITEL, CATE HARRIS, CHRIS DEPP, HARVEY HOPE, CUBA BIRCH"
+    ],
+    [
+        44,
+        "ATTACKS HATE",
+        "A Fast-Paced Panorama of a Technical Writer And a Mad Scientist who must Find a Feminist in An Abandoned Mine Shaft",
+        "Sci-Fi",
+        4.99,
+        113,
+        "PG-13",
+        "DAN TORN, MILLA KEITEL, GROUCHO DUNST, BURT TEMPLE"
+    ],
+    [
+        45,
+        "ATTRACTION NEWTON",
+        "A Astounding Panorama of a Composer And a Frisbee who must Reach a Husband in Ancient Japan",
+        "New",
+        4.99,
+        83,
+        "PG-13",
+        "UMA WOOD, RIP WINSLET, GARY PENN, CHRISTOPHER WEST"
+    ],
+    [
+        46,
+        "AUTUMN CROW",
+        "A Beautiful Tale of a Dentist And a Mad Cow who must Battle a Moose in The Sahara Desert",
+        "Games",
+        4.99,
+        108,
+        "G",
+        "DUSTIN TAUTOU, ANGELA HUDSON, JAMES PITT"
+    ],
+    [
+        47,
+        "BABY HALL",
+        "A Boring Character Study of a A Shark And a Girl who must Outrace a Feminist in An Abandoned Mine Shaft",
+        "Foreign",
+        4.99,
+        153,
+        "NC-17",
+        "NICK WAHLBERG, MATTHEW JOHANSSON, CHARLIZE DENCH, DARYL WAHLBERG, KEVIN GARLAND, RIVER DEAN, MINNIE KILMER, VIVIEN BASINGER"
+    ],
+    [
+        48,
+        "BACKLASH UNDEFEATED",
+        "A Stunning Character Study of a Mad Scientist And a Mad Cow who must Kill a Car in A Monastery",
+        "Children",
+        4.99,
+        118,
+        "PG-13",
+        "CHRISTIAN AKROYD, SPENCER PECK, CHRISTOPHER BERRY, SYLVESTER DERN, DAN STREEP, KEVIN GARLAND, JANE JACKMAN"
+    ],
+    [
+        49,
+        "BADMAN DAWN",
+        "A Emotional Panorama of a Pioneer And a Composer who must Escape a Mad Scientist in A Jet Boat",
+        "Sci-Fi",
+        2.99,
+        162,
+        "R",
+        "BEN WILLIS, HARRISON BALE, CUBA ALLEN, WARREN JACKMAN, GRETA KEITEL, OLYMPIA PFEIFFER, ALAN DREYFUSS, THORA TEMPLE"
+    ],
+    [
+        50,
+        "BAKED CLEOPATRA",
+        "A Stunning Drama of a Forensic Psychologist And a Husband who must Overcome a Waitress in A Monastery",
+        "Family",
+        2.99,
+        182,
+        "G",
+        "MICHELLE MCCONAUGHEY"
+    ],
+    [
+        51,
+        "BALLOON HOMEWARD",
+        "A Insightful Panorama of a Forensic Psychologist And a Mad Cow who must Build a Mad Scientist in The First Manned Space Station",
+        "Music",
+        2.99,
+        75,
+        "NC-17",
+        "PARKER GOLDBERG, MENA TEMPLE, GARY PENN, RICHARD PENN, RENEE BALL, ROCK DUKAKIS"
+    ],
+    [
+        52,
+        "BALLROOM MOCKINGBIRD",
+        "A Thrilling Documentary of a Composer And a Monkey who must Find a Feminist in California",
+        "Foreign",
+        0.99,
+        173,
+        "G",
+        "JUDY DEAN, ADAM GRANT, BEN WILLIS, DARYL WAHLBERG, HARRISON BALE, LUCILLE DEE, GENE MCKELLEN"
+    ],
+    [
+        53,
+        "BANG KWAI",
+        "A Epic Drama of a Madman And a Cat who must Face a A Shark in An Abandoned Amusement Park",
+        "Family",
+        2.99,
+        87
