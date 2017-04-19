@@ -40,7 +40,7 @@
         "MyService"
     ],
     "db": [
-        "db1"
+        "hello_world"
     ],
     "packages": [],
     "server": {
