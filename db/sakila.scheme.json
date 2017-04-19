@@ -84,7 +84,8 @@
                     "type": "text",
                     "dbtype": "text"
                 }
-            }
+            },
+            "key": "actor_id"
         },
         "address": {
             "fields": [
@@ -338,7 +339,8 @@
                     "type": "int",
                     "dbtype": "tinyint(3) unsigned"
                 }
-            }
+            },
+            "key": "ID"
         },
         "film": {
             "fields": [
@@ -381,7 +383,7 @@
                     "join": "language.language_id"
                 },
                 "original_language_id": {
-                    "required": false,
+                    "required": true,
                     "join": "language.language_id"
                 },
                 "rental_duration": {
@@ -481,7 +483,7 @@
             ],
             "field": {
                 "FID": {
-                    "required": false,
+                    "required": true,
                     "type": "int",
                     "dbtype": "smallint(5) unsigned"
                 },
@@ -520,7 +522,8 @@
                     "type": "text",
                     "dbtype": "text"
                 }
-            }
+            },
+            "key": "FID"
         },
         "film_text": {
             "fields": [
@@ -612,7 +615,7 @@
             ],
             "field": {
                 "FID": {
-                    "required": false,
+                    "required": true,
                     "type": "int",
                     "dbtype": "smallint(5) unsigned"
                 },
@@ -651,7 +654,8 @@
                     "type": "text",
                     "dbtype": "text"
                 }
-            }
+            },
+            "key": "FID"
         },
         "payment": {
             "fields": [
@@ -677,7 +681,7 @@
                     "join": "staff.staff_id"
                 },
                 "rental_id": {
-                    "required": false,
+                    "required": true,
                     "join": "rental.rental_id"
                 },
                 "amount": {
@@ -759,7 +763,8 @@
                     "type": "float",
                     "dbtype": "decimal(27,2)"
                 }
-            }
+            },
+            "key": "category"
         },
         "sales_by_store": {
             "fields": [
@@ -769,7 +774,7 @@
             ],
             "field": {
                 "store": {
-                    "required": false,
+                    "required": true,
                     "type": "char",
                     "dbtype": "varchar(101)"
                 },
@@ -783,7 +788,8 @@
                     "type": "float",
                     "dbtype": "decimal(27,2)"
                 }
-            }
+            },
+            "key": "store"
         },
         "staff": {
             "fields": [
@@ -907,7 +913,8 @@
                     "type": "int",
                     "dbtype": "tinyint(3) unsigned"
                 }
-            }
+            },
+            "key": "ID"
         },
         "store": {
             "fields": [
