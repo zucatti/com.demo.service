@@ -1,5 +1,5 @@
 {
-    "db": "db1",
+    "db": "hello_world",
     "tables": [
         "Table1"
     ],
@@ -16,12 +16,12 @@
                     "type": "counter"
                 },
                 "CreatedAt": {
-                    "required": false,
+                    "required": true,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 },
                 "UpdatedAt": {
-                    "required": false,
+                    "required": true,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 }
