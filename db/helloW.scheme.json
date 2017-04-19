@@ -1,7 +1,8 @@
 {
-    "db": "hello_world",
+    "db": "helloW",
     "tables": [
-        "Table1"
+        "Table1",
+        "Table2"
     ],
     "table": {
         "Table1": {
@@ -22,6 +23,30 @@
                 },
                 "UpdatedAt": {
                     "required": true,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "Id"
+        },
+        "Table2": {
+            "fields": [
+                "Id",
+                "CreatedAt",
+                "UpdatedAt"
+            ],
+            "field": {
+                "Id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "CreatedAt": {
+                    "required": false,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                },
+                "UpdatedAt": {
+                    "required": false,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 }
