@@ -1,1 +1,5 @@
-Error: ER_BAD_DB_ERROR: Unknown database 'demo'
+{
+    "db": "demo",
+    "tables": [],
+    "table": {}
+}
