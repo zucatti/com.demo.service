@@ -39,9 +39,7 @@
     "api": [
         "MyService"
     ],
-    "db": [
-        "db0"
-    ],
+    "db": [],
     "packages": [],
     "server": {
         "port": 3000
